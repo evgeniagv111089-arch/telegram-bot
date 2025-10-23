@@ -1,6 +1,7 @@
 import telebot
 import os
 
+# Получаем токен из переменной окружения (Render так безопаснее)
 TOKEN = os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(TOKEN)
 
